@@ -1,6 +1,126 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h1>Hello World</h1>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>in from the cold</title>
+    <!-- The style.css file allows you to change the look of your web pages.
+         If you include the next line in all your web pages, they will all share the same look.
+         This makes it easier to make new pages for your site. -->
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+<style>
+body {
+  background-image: url('https://64.media.tumblr.com/6b1498ad51806f05feb340bf7545bb0a/b8e29adfd9b02ae0-0a/s1280x1920/06ce0ca9ecc012744973e184cdbca97fd61147f1.pnj');
+  background-repeat: no-repeat;
+  background-size: 1920px 1080px;
+}
+
+.icon-row {
+    display: inline-flex;
+    gap: 50px;
+}
+.box {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.hazard {
+    position: fixed;
+    z-index: 3;
+    top: 100;
+    left: 500;
+}
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon-container img {
+    width: auto;
+    height: 100px;
+}
+.label {
+    font-size: 14px;
+    font-family: serif;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 2px 4px;
+}
+a:link {
+  color: white;
+}
+a:visited {
+  color:#985fd4
+}
+a:hover {
+  color: white;
+}
+    .imageBox {
+      position: relative;
+      float: left;
+      display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+    .imageBox img{
+      width: auto;
+      height: 100px;
+    }
+
+    .imageBox .hoverImg {
+      position: absolute;
+      left: 0;
+      top: 0;
+      display: none;
+    }
+
+    .imageBox:hover .hoverImg {
+      top:141px;
+      left:25px;
+      transform: scale(4.9);
+      display: block;
+    }
+
+    .imageBox:hover .hoverImg {
+        display: block;
+    }
+</style>
+    <p style="font-family:serif;font-size:10px;margin-bottom:50px;">If you are using Netscape please use 'OPTIONS'</p><br>
+<p style="font-family:serif;margin-bottom:110px;"><img src=https://64.media.tumblr.com/f2ddbd1c9b5d73243c1f90d9ea0badc6/8b5065299bd8f7cb-91/s400x600/85232fda2ccf96a1adb56030ae15007b8d941571.pnj><br><img src=https://64.media.tumblr.com/737a7935ebb7d3418898ac062e69cd60/8b5065299bd8f7cb-96/s540x810/6fd26eccd119c288ac3c6dc85cd0261eff83ec2f.gifv width=auto height=50px><br>and please don't break anything while you're here</p>
+</div>
+  </head>
+
+  <body style="text-align:center">
+  <div class = "box">
+    <img class="hazard" src="https://64.media.tumblr.com/f9e18507efd7f2575c1124e0bfee5edd/8b5065299bd8f7cb-fd/s100x200/4b0819c86147071c4e8d31eb83b0eea212dc49ac.pnj"><br>
+  </div>
+<div class="icon-row">
+    <div class="imageBox">
+      <div class="image-container">
+        <img src="https://64.media.tumblr.com/6c66ddb93ce4c360186947c0fafe59f4/8b5065299bd8f7cb-91/s250x400/206380b992bde905f55e50cf131f51aecc74274c.pnj">
+        <div class="label"><a href="https://decks.neocities.org/thoughtlessness">Visit</a></div>
+      </div>
+      <div class="hoverImg">
+        <a href="https://decks.neocities.org/visit"><img src="https://64.media.tumblr.com/5c4ff268454f928315034b503ffef955/8b5065299bd8f7cb-ec/s1280x1920/e89994162f6b4044dc6585ef8af612dcb7d58a53.pnj"></a>
+      </div>
+    </div>
+    <div class="icon-container">
+        <img src="https://64.media.tumblr.com/511c1f7eadb886e53ae6fab7a3e24715/8b5065299bd8f7cb-9e/s75x75_c1/dd1b478661a517e45f3b4478cdf508c13d380b45.pnj">
+        <div class="label"><a href="https://decks.neocities.org/down_the_drain">Media</a></div>
+    </div>
+    <div class="icon-container">
+        <img src="https://64.media.tumblr.com/9d79a00bcbfe20fa404a4f41e299a816/8b5065299bd8f7cb-0d/s250x400/67929449112e975eed416513973200717213c166.pnj">
+        <div class="label"><a href=>Archive</a></div>
+    </div>
+    <div class="icon-container">
+        <img src="https://64.media.tumblr.com/4d17d0dae33f6cbc491a6442dc994c91/8b5065299bd8f7cb-60/s75x75_c1/a86654b45b0b66a99c83dbad98f78fef82a416ec.pnj">
+        <div class="label"><a href=>OPTIONS</a></div>
+    </div>
+</div>
+
+  </body>
 </html>
